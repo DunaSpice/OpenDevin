@@ -32,6 +32,10 @@ Then pull our latest image [here](https://github.com/opendevin/OpenDevin/pkgs/co
 ```bash
 docker pull ghcr.io/opendevin/sandbox
 ```
+Then clone the code
+```bash
+git clone https://github.com/OpenDevin/OpenDevin.git
+```
 
 Then copy `config.toml.template` to `config.toml`. Add an API key to `config.toml`.
 (See below for how to use different models.)
